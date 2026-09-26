@@ -1,20 +1,32 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# ConnectHub
 
-# Run and deploy your AI Studio app
+ConnectHub is a responsive and interactive web application developed as part of my Web Development Internship at ApexPlanet Software Pvt. Ltd.
 
-This contains everything you need to run your app locally.
+The project focuses on creating a clean workspace where users can navigate between different sections, manage tasks, and interact with the interface using modern frontend techniques.
 
-View your app in AI Studio: https://ai.studio/apps/6f6df1ec-b5bd-4b29-821c-3ec629824db3
+## Features
 
-## Run Locally
+- Responsive and user-friendly interface
+- Home, Tasks, and Contact sections
+- Interactive task management
+- Form handling and validation
+- DOM manipulation using JavaScript
+- Light and Dark mode
+- Responsive layout for different screen sizes
+- Smooth navigation and interactive UI elements
 
-**Prerequisites:**  Node.js
+## Technologies Used
 
+- HTML5
+- CSS3
+- JavaScript
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## Project Structure
+
+```text
+ConnectHub/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
